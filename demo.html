@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+	*{
+		padding: 0;
+		margin: 0;
+	}
+	canvas#game{
+		margin: 10px;
+		cursor:pointer;
+		border:1px solid #000;
+	}
+	</style>
+</head>
+<body>
+	<canvas id="game" width="360" height="600"></canvas>
+	<script type="text/javascript" src="js/underscore-min.js"></script>
+	<script type="text/javascript" src="js/SimpleJavaScriptInheritance.js"></script>
+	<script type="text/javascript" src="js/Game.js"></script>
+	<script type="text/javascript" src="js/Scene.js"></script>
+	<script type="text/javascript" src="js/Actor.js"></script>
+	<script type="text/javascript" src="js/Background.js"></script>
+	<script type="text/javascript" src="js/Bird.js"></script>
+	<script type="text/javascript" src="js/Block.js"></script>
+	<script type="text/javascript" src="js/Iori.js"></script>
+	<script type="text/javascript" src="js/Bullet.js"></script>
+	<script type="text/javascript" src="js/Coin.js"></script>
+	<script type="text/javascript">
+	var game = new Game({
+		"id":"#game",
+		"url":"resource.txt"
+	})
+	</script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+	"sky":"images/sky.png",
+	"bird":"images/bird.png",
+	"bird1":"images/bird1.png",
+	"block":"images/block.bmp",
+	"steel":"images/steel.bmp",
+	"coin":"images/coin.png",
+	"ioriR":"images/ioriR.png",
+	"ioriL":"images/ioriL.png",
+	"bullet":"images/bullet.png",
+	"coin.png":"images/coin.png",
+	"text_ready":"images/text_ready.png",
+	"text_game_over":"images/text_game_over.png",
+	"score_panel":"images/score_panel.png",
+	"button_play":"images/button_play.png"
+}
